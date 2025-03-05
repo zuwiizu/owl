@@ -1,0 +1,5 @@
+.dist
+deep-swarm/data
+deep-swarm/tmp
+deep-swarm/.env
+deep-swarm/utils/__pycache__/
