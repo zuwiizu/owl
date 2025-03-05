@@ -1,13 +1,14 @@
-# DeepSwarm
+<h1 align="center">
+	🐝 Deep Swarm: Multi-Agent Collaboration for Task Automation in the Wild<br>
+</h1>
 
-## Overview
+Deep Swarm is a cutting-edge framework for multi-agent collaboration that pushes the boundaries of task automation. Built on top of the Camel Framework, Deep Swarm ranks #1 among open-source frameworks.
 
-DeepSwarm is a multi-agent framework based from [camel](https://github.com/camel-ai/camel/). It achieved open-source state-of-the-art performance on the [GAIA](https://huggingface.co/datasets/gaia-benchmark/GAIA) benchmark.
+Our vision is to revolutionize how AI agents collaborate to solve real-world tasks. By leveraging role-playing mechanisms and dynamic agent interactions, Deep Swarm enables more natural, efficient, and robust task automation across diverse domains.
 
-## Quickstart
+# Key Features
 
-It is recommended to run the code in linux environment.
-To get started, follow these steps:
+# Quick Start
 
 1. **Clone the Github repository:**
 
@@ -36,10 +37,18 @@ $ pip install -r requirements.txt
 $ python run.py
 ```
 
-## Reproduce the Results in GAIA
-
-We have provided a script to reproduce the results in GAIA. You can check the `run_gaia_roleplaying.py` file and run the following command:
+Additionally, We have provided a script to reproduce the results in GAIA. You can check the `run_gaia_roleplaying.py` file and run the following command:
 
 ```bash
 $ python run_gaia_roleplaying.py
 ```
+
+# Community
+
+[Camel Link]
+
+[This project]
+
+# Architecture
+
+# Cite
