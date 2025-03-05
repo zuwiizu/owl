@@ -1,4 +1,5 @@
 .dist
+.DS_Store
 deep-swarm/data
 deep-swarm/tmp
 deep-swarm/.env
