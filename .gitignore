@@ -1,6 +1,6 @@
 .dist
 .DS_Store
-deep-swarm/data
-deep-swarm/tmp
-deep-swarm/.env
-deep-swarm/utils/__pycache__/
+owl/data
+owl/tmp
+owl/.env
+owl/utils/__pycache__/

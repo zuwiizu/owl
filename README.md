@@ -11,47 +11,51 @@ Our vision is to revolutionize how AI agents collaborate to solve real-world tas
 
 # 🔥 News
 
+- **[2025.03.06]**: We open-source the codebase of 🦉 OWL project.
 
 # 🛠️ Installation
 
-## **Clone the Github repository:**
+## **Clone the Github repository**
 
 ```bash
-$ git clone xxx
+git clone xxx
 ```
 
-## **Set up Environment:**
+## **Set up Environment**
 
 ```bash
-$ conda create -n owl python=3.11
-$ conda activate owl
+conda create -n owl python=3.11
+conda activate owl
 ```
 
-## **Install Dependencies:**
+## **Install Dependencies**
 
 ```bash
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
-##  **Set API Keys:** 
+##  **Setup Environment Variables** 
 
-We use `dotenv` to manage API keys. Please copy and check the `.env.example` file to `.env` and fill in the necessary API keys.
+In the `.env.example` file, you will find all the necessary API keys along with the websites where you can register for each service. To use these API services, follow these steps:
+
+1. *Copy and Rename*: Duplicate the `.env.example` file and rename the copy to `.env`.
+2. *Fill in Your Keys*: Open the .env file and insert your API keys in the corresponding fields. 
 
 # 🚀 Quick Start
    
 Run the following minimal example:
 
 ```bash
-$ python run.py
+python run.py
 ```
 
 # 🧪 Experiments
 
-Additionally, We have provided a script to reproduce the results on GAIA. 
+We provided a script to reproduce the results on GAIA. 
 You can check the `run_gaia_roleplaying.py` file and run the following command:
 
 ```bash
-$ python run_gaia_roleplaying.py
+python run_gaia_roleplaying.py
 ```
 
 # ⏱️ Future Plans
