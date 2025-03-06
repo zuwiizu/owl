@@ -1,12 +1,14 @@
 <h1 align="center">
-	🐝 Deep Swarm: Multi-Agent Collaboration for Task Automation in the Wild<br>
+	🦉 OWL: Towards General Multi-Agent Assistant for Real-World Task Automation
 </h1>
 
-Deep Swarm is a cutting-edge framework for multi-agent collaboration that pushes the boundaries of task automation. Built on top of the Camel Framework, Deep Swarm ranks #1 among open-source frameworks.
+🦉 OWL is a cutting-edge framework for multi-agent collaboration that pushes the boundaries of task automation. 
+Built on top of the [Camel-AI Framework](https://github.com/camel-ai/camel). 
+OWL ranks #1 among open-source frameworks on GAIA benchmark.
 
-Our vision is to revolutionize how AI agents collaborate to solve real-world tasks. By leveraging role-playing mechanisms and dynamic agent interactions, Deep Swarm enables more natural, efficient, and robust task automation across diverse domains.
+Our vision is to revolutionize how AI agents collaborate to solve real-world tasks. By leveraging role-playing mechanisms and dynamic agent interactions, OWL enables more natural, efficient, and robust task automation across diverse domains.
 
-# Key Features
+<!-- # Key Features -->
 
 # Quick Start
 
@@ -19,8 +21,8 @@ $ git clone xxx
 2. **Set up Python Environment:**
 
 ```bash
-$ conda create -n deepswarm python=3.11
-$ conda activate deepswarm
+$ conda create -n owl python=3.11
+$ conda activate owl
 ```
 
 3. **Install Dependencies:**
@@ -37,7 +39,7 @@ $ pip install -r requirements.txt
 $ python run.py
 ```
 
-Additionally, We have provided a script to reproduce the results in GAIA. You can check the `run_gaia_roleplaying.py` file and run the following command:
+Additionally, We have provided a script to reproduce the results on GAIA. You can check the `run_gaia_roleplaying.py` file and run the following command:
 
 ```bash
 $ python run_gaia_roleplaying.py
