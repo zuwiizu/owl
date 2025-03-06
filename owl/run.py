@@ -8,14 +8,14 @@ from dotenv import load_dotenv
 from retry import retry
 from loguru import logger
 
-from utils import DeepSwarmRolePlaying, process_tools, run_society
+from utils import OwlRolePlaying, process_tools, run_society
 import os
 
 
 load_dotenv()
 
 
-def construct_society(question: str) -> DeepSwarmRolePlaying:
+def construct_society(question: str) -> OwlRolePlaying:
     r"""Construct the society based on the question."""
 
     user_role_name = "user"
@@ -62,7 +62,7 @@ def construct_society(question: str) -> DeepSwarmRolePlaying:
         'with_task_specify': False,
     }
 
-    society = DeepSwarmRolePlaying(
+    society = OwlRolePlaying(
         **task_kwargs,
         user_role_name=user_role_name,
         user_agent_kwargs=user_agent_kwargs,

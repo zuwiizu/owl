@@ -217,7 +217,7 @@ class GAIABenchmark(BaseBenchmark):
                         'with_task_specify': False,
                     }
 
-                society = DeepSwarmGaiaRolePlaying(
+                society = OwlGaiaRolePlaying(
                     **task_kwargs,
                     user_role_name=user_role_name,
                     user_agent_kwargs=user_agent_kwargs,

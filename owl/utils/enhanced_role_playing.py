@@ -22,7 +22,7 @@ from retry import retry
 from .common import *
 
 
-class DeepSwarmRolePlaying(RolePlaying):
+class OwlRolePlaying(RolePlaying):
     def __init__(
         self, 
         **kwargs
@@ -297,7 +297,7 @@ Please note that our overall task may be very complicated. Here are some tips th
         )
 
 
-class DeepSwarmGaiaRolePlaying(DeepSwarmRolePlaying):
+class OwlGaiaRolePlaying(OwlRolePlaying):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
