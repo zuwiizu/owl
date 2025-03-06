@@ -13,40 +13,51 @@ Our vision is to revolutionize how AI agents collaborate to solve real-world tas
 
 - **[2025.03.06]**: We open-source the codebase of 🦉 OWL project.
 
-# 🛠️ Installation
+## 🛠️ Installation
 
-## **Clone the Github repository**
+### **Clone the Github repository**
 
 ```bash
-git clone xxx
+git clone https://github.com/camel-ai/owl.git
+cd owl
 ```
 
-## **Set up Environment**
+### **Set up Environment**
 
+Using Conda (recommended):
 ```bash
 conda create -n owl python=3.11
 conda activate owl
 ```
 
-## **Install Dependencies**
-
+Using venv (alternative):
 ```bash
-pip install -r requirements.txt
+python -m venv owl_env
+# On Windows
+owl_env\Scripts\activate
+# On Unix or MacOS
+source owl_env/bin/activate
 ```
 
-##  **Setup Environment Variables** 
+### **Install Dependencies**
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### **Setup Environment Variables** 
 
 In the `.env.example` file, you will find all the necessary API keys along with the websites where you can register for each service. To use these API services, follow these steps:
 
 1. *Copy and Rename*: Duplicate the `.env.example` file and rename the copy to `.env`.
-2. *Fill in Your Keys*: Open the .env file and insert your API keys in the corresponding fields. 
+2. *Fill in Your Keys*: Open the `.env` file and insert your API keys in the corresponding fields. 
 
-# 🚀 Quick Start
+## 🚀 Quick Start
    
 Run the following minimal example:
 
 ```bash
-python run.py
+python owl/run.py
 ```
 
 # 🧪 Experiments
